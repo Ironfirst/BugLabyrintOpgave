@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
 Labyrint labyrint=new Labyrint();
-labyrint.Opret();
+labyrint.OpretHel();
         System.out.println(labyrint.helLabyrint);
 
 

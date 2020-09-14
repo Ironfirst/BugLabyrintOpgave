@@ -2,7 +2,7 @@ package Opgave;
 
 import java.util.Arrays;
 
-// oprindelig funktionalitet vil være at læse 2 filer og oprette 2 dimintionelt array med
+// oprindelig funktionalitet vil være at læse 2 filer og oprette 2 dimentionelt array med
 // alle væge i labyrinten til oprettelse af blokke " chunks" af labyrinten
 // men vælger bare at oprette de 2 arrays manuelt da jeg er i tidsnød
 public class LabyrintReader {

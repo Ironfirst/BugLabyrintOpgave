@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BufLabyringOpgave.iml" filepath="$PROJECT_DIR$/BufLabyringOpgave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BugLabyrintOpgave.iml" filepath="$PROJECT_DIR$/BugLabyrintOpgave.iml" />
     </modules>
   </component>
 </project>
