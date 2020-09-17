@@ -10,8 +10,10 @@ public class Bug {
         labyrint = lab;
     }
 
+             // det fungerede ikke at bruge labyrint classen på denne måde, men ved at have den med i constructoren
+            // kunne bug classen få labyrinten til at læse
   //  Labyrint labyrint = new Labyrint();
-    // start værdi
+
     int start = 2; // 2 object er det første der skal rykkes ind i
     int current = 1; //
     int skridt = 1; // vi siger den har rykket en allerede og gået ind i object 2 ved start
@@ -29,6 +31,7 @@ public class Bug {
     // mangler dog en checker på om det næste object har en besøgt værdi
 //    public void objectMovement(int current) {
     public void objectMovement() {
+
 
 
         // hvis nogle retningers object har en stacksize.count(værdi) mere end 1, så foretræk de andre retninger først.
