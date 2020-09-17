@@ -15,15 +15,15 @@ Labyrint labyrint=new Labyrint();
 
         bug.stackVisited.push(labyrint.helLabyrint.get(1));
 
-        System.out.println(labyrint.helLabyrint);
+//        System.out.println(labyrint.helLabyrint.get(8));
 
-// seneste outcomment
-//
-//while(!bug.stackVisited.peek().equals(labyrint.helLabyrint.get(33))){
-//
-//    bug.objectMovement();
-//
-//}
+
+
+while(!bug.stackVisited.peek().equals(labyrint.helLabyrint.get(33))){
+
+    bug.objectMovement();
+
+}
 
 
 

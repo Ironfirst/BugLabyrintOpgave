@@ -35,21 +35,21 @@ public class Bug {
 
         // stack visit check || parameter så der prioteres objecter uden en stackVisit contain værdi
 
-        if (labyrint.helLabyrint.get(current).højre == 0 & !stackVisited.contains(current + 1)) {
+        if (labyrint.helLabyrint.get(current).højre == 0 & !stackVisited.contains(labyrint.helLabyrint.get(current+1))) {
             onMove(current + 1);
             //return labyrint.helLabyrint.get(current ++);
             current+=1;
 
 
-        } else if (labyrint.helLabyrint.get(current).top == 0 & !stackVisited.contains(current + 6)) {
+        } else if (labyrint.helLabyrint.get(current).top == 0 & !stackVisited.contains(labyrint.helLabyrint.get(current+6))) {
             onMove(current + 6);
             current+=6;
            // return labyrint.helLabyrint.get(current + 6);
-        } else if (labyrint.helLabyrint.get(current).venstre == 0 & !stackVisited.contains(current - 1)) {
+        } else if (labyrint.helLabyrint.get(current).venstre == 0 & !stackVisited.contains(labyrint.helLabyrint.get(current-1))) {
             onMove(current - 1);
             current-=1;
 //            return labyrint.helLabyrint.get(current + 1);
-        } else if (labyrint.helLabyrint.get(current).bund == 0 & !stackVisited.contains(current - 6)) {
+        } else if (labyrint.helLabyrint.get(current).bund == 0 & !stackVisited.contains(labyrint.helLabyrint.get(current-6))){
             onMove(current - 6);
             current-=6;
 //            return labyrint.helLabyrint.get(current - 6);
