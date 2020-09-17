@@ -2,7 +2,7 @@ package Opgave;
 
 import java.util.ArrayList;
 
-public class Labyrint {
+public class Labyrint{
 
 
     ArrayList<LabyrintDelOpretter> helLabyrint = new ArrayList<>();
@@ -55,7 +55,7 @@ public class Labyrint {
 
         int iterationCount = 0;
         for (int r = 0; r < 6; r++) {
-            for (int e = 0; e < 7; e++) {
+            for (int e = 0; e < 6; e++) {
 
                 venstreValue = lodret[e][r];
                 helLabyrint.get(iterationCount).setVenstre(venstreValue);
@@ -77,6 +77,7 @@ public class Labyrint {
         }
     }
 
+    // check magic numbers initialisering istedet for
     public int[][] vandret =
                     {{1, 0, 1, 1, 1, 1},
                     {0, 1, 1, 0, 0, 0},
